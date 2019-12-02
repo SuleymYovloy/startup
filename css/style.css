@@ -1,0 +1,372 @@
+html {
+    font-size: 10px;
+}
+
+ul,li,nav{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+*, *:before,*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1140px;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.header {
+	background: url(../img/fone.jpg) no-repeat center;
+	height: 770px;
+	background-size: cover;
+}
+
+.header__main {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 45px;
+}
+
+.header__logo {
+	padding-top: 7px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li:not(:last-child) {
+	margin-right: 35px;
+}
+
+.menu li:hover {
+	color: #FAF6F6;
+}
+
+.menu a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	
+}
+
+.header__nav-item { 
+	padding: 10px 13px;
+	-webkit-transition: all linear 300ms;
+	-o-transition: all linear 300ms;
+	transition: all linear 300ms;
+}
+
+.header__nav-item:hover {
+	border: 1px solid #fff;
+	border-radius: 2px;		
+}
+
+.header__main {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 45px;
+}
+
+.header__content {
+	padding: 264px 0px 260px 0px;
+	text-align: center;
+}
+
+.header__content h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.header__content p {
+	margin: 0;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'Roboto Slab';
+	color: #ffffff;
+	padding-bottom: 40px;
+}
+
+.header__btn {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+	outline:none;
+	border: 1px solid #fff;
+	border-radius: 1px;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header__btn:hover {
+	background: rgba(211, 199, 199, 0.281);
+	color: rgba(180, 161, 154, 0.884)
+}
+.line {
+	width: 50px;
+	height: 1px;
+	background: #555555;
+	position: relative;
+	left: 50%;
+	margin-bottom: 28px;
+	transform: translateX(-50%);
+	margin-top: 29px;
+}
+
+.services h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #555555;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 99px;
+}
+
+.services p {
+	text-align: center;
+	color: #555555;
+	font-family: 'Roboto Slab' ;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+
+.services__cards {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+	padding: 70px 0px 100px 0px;
+}
+
+.services__cards h4 {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.services__cards p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #555555;
+	font-family: "Roboto Slab";
+}
+
+.about-as {
+	background-color: #f8f8f8;
+}
+
+.about__content {
+	display: flex;
+	padding-bottom: 71px;
+}
+
+.line {
+	width: 50px;
+	height: 1px;
+	background: #555555;
+	position: relative;
+	left: 50%;
+	margin-bottom: 28px;
+	transform: translateX(-50%);
+	margin-top: 29px;
+}
+
+.about-as h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #555555;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 99px;
+}
+
+.about-as p {
+	text-align: center;
+	color: #555555;
+	font-family: 'Roboto Slab' ;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.about-p1 {
+	color: #555555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: "Roboto Slab";
+}
+
+.about-p2 {
+	color: #555555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: "Roboto Slab";
+}
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slider.regular img {
+    	width: 263px;
+    	height: 250px;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: ease-in-out 10s;
+      opacity: 5;
+    }
+
+    .slick-active {
+      opacity: 5;
+    }
+
+    .slick-current {
+      opacity: 5;
+    }
+
+
+.works h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #555555;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 99px;
+}
+
+.sections {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 70px;
+	
+}
+
+.sections a {
+	text-decoration: none;
+	color: #555555;
+	font-family: "Roboto Slab";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-right: 27px;
+
+}
+
+
+.works {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.works a {
+	margin: 0px 19px 19px 0px;
+}
+
+.your-project {
+	background: url(../img/layer.jpg) no-repeat center;
+	height: 370px;
+	background-size: cover;
+	text-align: center;
+}
+
+.about-carousel {
+	padding-bottom: 1px;
+}
+
+.your-project h1{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto Slab', sans-serif;
+	color: #EBEAEA;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+	margin: 0;
+	padding: 99px 0px 53px 0px;
+}
+
+.your-project__btn {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+	outline:none;
+	border: 2px solid #fff;
+	border-radius: 1px;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+}	
+
+.your-project__btn:hover {
+	background: rgba(211, 199, 199, 0.281);
+	color: rgba(180, 161, 154, 0.884)
+}
